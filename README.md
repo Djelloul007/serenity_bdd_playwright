@@ -1,6 +1,6 @@
 # Serenity BDD and MS Playwright
 
-This tutorial show you how to get started with REST-API testing using Serenity and Cucumber 4. 
+This tutorial show you how to use Serenity BDD and MS Playwright together.
 
 
 
