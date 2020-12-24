@@ -44,7 +44,7 @@ public class Search {
     @Step
     @Then("all the result titles should contain the word {string}")
     public void all_the_result_titles_should_contain_the_word(String string) throws Exception {
-        String result=page.innerText("span[class=\"module__title__link\"]").toString();
+        String result= page.innerText("span[class=\"module__title__link\"]");
         assertThat(result, containsString(string));
         browser.close();
         playwright.close();
