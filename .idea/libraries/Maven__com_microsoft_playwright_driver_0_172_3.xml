@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.microsoft.playwright:driver:0.172.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/playwright/driver/0.172.3/driver-0.172.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/playwright/driver/0.172.3/driver-0.172.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/playwright/driver/0.172.3/driver-0.172.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

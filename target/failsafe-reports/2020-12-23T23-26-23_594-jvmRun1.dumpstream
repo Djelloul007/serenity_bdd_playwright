@@ -1,0 +1,10 @@
+# Created at 2020-12-23T23:26:27.286
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Failed to process descriptor at C:\Users\belar\AppData\Local\Temp\playwright-java-1337629883287175004'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Failed to process descriptor at C:\Users\belar\AppData\Local\Temp\playwright-java-1337629883287175004'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+
